@@ -35,7 +35,7 @@ defmodule GrncShared.Mixfile do
       {:ex_doc, "~> 0.14", only: :dev},
       {:earmark, "~> 1.0", only: :dev},
       {:credo, "~> 0.4", only: [:dev, :test]},
-      {:ex_statsd, github: "CargoSense/ex_statsd"},
+      {:ex_statsd, github: "https://github.com/akhi26/ex_statsd.git"},
     ]
   end
 end
